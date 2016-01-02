@@ -2,7 +2,7 @@
 $args = array(
   'paged' => $paged,
   'post_type' => 'post',
-  'posts_per_page' => -1,
+  'posts_per_page' => 1,
 );
 query_posts($args);
 ?>
