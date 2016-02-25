@@ -13,5 +13,3 @@ query_posts($args);
 
 <?php wp_reset_query(); ?>
 
-
-<?php get_template_part('templates/chat'); ?>
