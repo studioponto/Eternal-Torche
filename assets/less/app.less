@@ -51,10 +51,11 @@ body{-webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; fo
 /* ==========================================================================
    Single
    ========================================================================== */
-.image_wrap{position: fixed; display: block; top: 50px; left: 50px; right: 50px; bottom: 50px; overflow: hidden;}
+#single_wrap{position: fixed; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden; display: block;}
+.image_wrap{position: absolute; display: block; top: 50px; left: 50px; right: 50px; bottom: 50px; overflow: hidden;}
 .image_wrap img {max-height: 100%;max-width: 100%;margin: auto;position: absolute;top: 0;left: 0;bottom: 0;right: 0; height: auto; width: auto;}
 
-.date{position: fixed; bottom: 0px; left: 0; width: 100%; line-height: 50px; text-align: center; }
+.date{position: absolute; bottom: 0px; left: 0; width: 100%; line-height: 50px; text-align: center; }
 
 
 .nav a:before {
