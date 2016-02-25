@@ -1,3 +1,4 @@
+<a href="<?php the_permalink() ?>" class="thumb col-sx-4 col-sm-2 col-md-1">
 <div class="image_wrap">
 <?php if (has_post_thumbnail()) {
 	the_post_thumbnail('full');
@@ -5,6 +6,4 @@
 </div>
 
 <div class="date"><?php the_time('jS F, Y'); ?></div>
-
-<?php previous_post('<div class="nav nav_prev">%</div>', '', 'no'); ?>
-<?php next_post('<div class="nav nav_next">%</div>', '', 'no'); ?>
+</a>
