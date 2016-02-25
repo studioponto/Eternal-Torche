@@ -12,6 +12,5 @@ query_posts($args);
 <?php endwhile; ?>
 
 <?php wp_reset_query(); ?>
-<!--
+
 <?php get_template_part('templates/chat'); ?>
--->

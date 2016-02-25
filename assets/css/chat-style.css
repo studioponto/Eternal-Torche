@@ -1,28 +1,5 @@
-/* sans serif */
-@font-face {
-  font-family: 'Sans';
-  src: url('http://eternaltorche.com/wp-content/themes/Eternal-Torche/assets/fonts/sans/sans-bold.eot');
-  src: url('http://eternaltorche.com/wp-content/themes/Eternal-Torche/assets/fonts/sans/sans-bold.eot?#iefix') format('embedded-opentype'),
-     url('http://eternaltorche.com/wp-content/themes/Eternal-Torche/assets/fonts/sans/sans-bold.woff') format('woff'),
-     url('http://eternaltorche.com/wp-content/themes/Eternal-Torche/assets/fonts/sans/sans-bold.ttf') format('truetype'),
-     url('http://eternaltorche.com/wp-content/themes/Eternal-Torche/assets/fonts/sans/sans-bold.svg#BrownBold') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Sans';
-  src: url('http://eternaltorche.com/wp-content/themes/Eternal-Torche/assets/fonts/sans/sans.eot');
-  src: url('http://eternaltorche.com/wp-content/themes/Eternal-Torche/assets/fonts/sans/sans.eot?#iefix') format('embedded-opentype'),
-     url('http://eternaltorche.com/wp-content/themes/Eternal-Torche/assets/fonts/sans/sans.woff') format('woff'),
-     url('http://eternaltorche.com/wp-content/themes/Eternal-Torche/assets/fonts/sans/sans.ttf') format('truetype'),
-     url('http://eternaltorche.com/wp-content/themes/Eternal-Torche/assets/fonts/sans/sans.svg#BrownBold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 html {
-  font-family: 'Sans', "Arial", Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.25;
   background-color: #f2f2f2;
   font-size: 14px;
@@ -455,147 +432,6 @@ html.isIframe {
   position: relative;
 }
 
-html.isIframe:after {
-  pointer-events: none;
-  content: "";
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 5px;
-  background: radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,0.06),rgba(0,0,0,0));
-  border-bottom: 1px solid transparent;
-  border-image: linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.12),rgba(0,0,0,0)) 1 1 stretch;
-  border-width: 0 0 1px 0;
-  opacity: 0;
-  -webkit-transform: translate3d(5px, 0, 0);
-  -moz-transform: translate3d(5px, 0, 0);
-  -ms-transform: translate3d(5px, 0, 0);
-  -o-transform: translate3d(5px, 0, 0);
-  transform: translate3d(5px, 0, 0);
-  -webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
-  -moz-transition: opacity 0.4s, -moz-transform 0.4s;
-  -o-transition: opacity 0.4s, -o-transform 0.4s;
-  transition: opacity 0.4s, transform 0.4s;
-}
-
-@media (min-width: 761px) {
-  html.isIframe:after {
-    right: 210px;
-  }
-}
-
-html.isIframe.isAtBottom:after {
-  opacity: .99;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -ms-transform: translate3d(0, 0, 0);
-  -o-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-html.isIframe::-webkit-scrollbar {
-  display: none;
-}
-
-@font-face {
-  font-family:'fontelico';src:url("/images/smiley/fontelico.eot?7803838");src:url("/images/smiley/fontelico.eot?7803838#iefix") format("embedded-opentype"),url("/images/smiley/fontelico.woff?7803838") format("woff"),url("/images/smiley/fontelico.ttf?7803838") format("truetype"),url("/images/smiley/fontelico.svg?7803838#fontelico") format("svg");font-weight:normal;font-style:normal;
-}
-
-i[data-smiley]:before {
-  display: inline-block;
-  margin: 0 .2em;
-  width: 1em;
-  line-height: 1em;
-  font-family: "fontelico";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  text-decoration: inherit;
-  text-align: center;
-  speak: none;
-}
-
-i[data-smiley="happy"]:before {
-  content: '\e800';
-}
-
-i[data-smiley="wink"]:before {
-  content: '\e801';
-}
-
-i[data-smiley="wink2"]:before {
-  content: '\e813';
-}
-
-i[data-smiley="unhappy"]:before {
-  content: '\e802';
-}
-
-i[data-smiley="sleep"]:before {
-  content: '\e803';
-}
-
-i[data-smiley="thumbsup"]:before {
-  content: '\e804';
-}
-
-i[data-smiley="devil"]:before {
-  content: '\e805';
-}
-
-i[data-smiley="surprised"]:before {
-  content: '\e806';
-}
-
-i[data-smiley="tongue"]:before {
-  content: '\e807';
-}
-
-i[data-smiley="coffee"]:before {
-  content: '\e808';
-}
-
-i[data-smiley="sunglasses"]:before {
-  content: '\e809';
-}
-
-i[data-smiley="displeased"]:before {
-  content: '\e80a';
-}
-
-i[data-smiley="beer"]:before {
-  content: '\e80b';
-}
-
-i[data-smiley="grin"]:before {
-  content: '\e80c';
-}
-
-i[data-smiley="angry"]:before {
-  content: '\e80d';
-}
-
-i[data-smiley="saint"]:before {
-  content: '\e80e';
-}
-
-i[data-smiley="cry"]:before {
-  content: '\e80f';
-}
-
-i[data-smiley="shoot"]:before {
-  content: '\e810';
-}
-
-i[data-smiley="squint"]:before {
-  content: '\e811';
-}
-
-i[data-smiley="laugh"]:before {
-  content: '\e812';
-}
 
 .toggle {
   position: relative;
@@ -745,9 +581,11 @@ i[data-smiley="laugh"]:before {
   z-index: 3;
   height: 50px;
   text-align: left;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-  background-color: #cccccc;
+  box-shadow: none;
+  background-color: #fff;
   -webkit-font-smoothing: antialiased;
+  margin: 0 10px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 @media (max-width: 299px) {
@@ -764,44 +602,6 @@ i[data-smiley="laugh"]:before {
   }
 }
 
-.header-avatar {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  font-size: 0px;
-  color: rgba(0,0,0,0);
-  overflow: hidden;
-  vertical-align: top;
-  border-top-left-radius: inherit;
-  border-bottom-left-radius: inherit;
-  background: url(../images/header-avatar.svg) no-repeat center center;
-  background-size: 100% auto;
-}
-
-.header-avatar:hover {
-  opacity: .8;
-}
-
-.header-avatar:active {
-  opacity: .6;
-}
-
-@media (max-width: 299px) {
-  .header-avatar {
-    width: 40px;
-    height: 40px;
-  }
-}
-
-@media (min-width: 761px) {
-  .header-avatar {
-    width: 55px;
-  }
-}
 
 .header-channel {
   display: block;
@@ -956,7 +756,7 @@ i[data-smiley="laugh"]:before {
   width: 100px;
   height: 50px;
   text-align: left;
-  fill: rgba(255,255,255,0.8);
+  fill: #000;
   -webkit-transition: -webkit-transform 0.2s;
   -moz-transition: -moz-transform 0.2s;
   -o-transition: -o-transform 0.2s;
@@ -1001,11 +801,12 @@ i[data-smiley="laugh"]:before {
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: rgba(255,255,255,0.8);
+  color: rgba(0,0,0,0.15);
   border-radius: 15px;
-  background: rgba(0,0,0,0.15);
-  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2),0 1px 0px rgba(255,255,255,0.2);
+  background: #fff;
+  box-shadow: none;
   pointer-events: none;
+  border:1px solid rgba(0,0,0,0.1);
 }
 
 @media (max-width: 299px) {
@@ -1029,7 +830,7 @@ i[data-smiley="laugh"]:before {
 
 .chat {
   overflow: hidden;
-  padding: 70px 10px 0 10px;
+  padding: 49px 10px 0 10px;
   -webkit-transition: -webkit-transform 0.4s ease, opacity 0.4s ease;
   -moz-transition: -moz-transform 0.4s ease, opacity 0.4s ease;
   -o-transition: -o-transform 0.4s ease, opacity 0.4s ease;
@@ -1065,7 +866,7 @@ i[data-smiley="laugh"]:before {
 
 .button-load {
   display: none;
-  margin: 0 auto 20px auto;
+  margin: 20px auto 20px auto;
 }
 
 .button-load:before {
@@ -1090,6 +891,7 @@ i[data-smiley="laugh"]:before {
   font-size: .8em;
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .time:after {
@@ -1102,21 +904,23 @@ i[data-smiley="laugh"]:before {
 
 .post:first-of-type,.time+.post {
   border-top-width: 1px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .post:last-of-type,.post.last-of-time {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .post {
   position: relative;
-  margin: 0 0 0 39px;
-  border: 1px solid #e6e6e6;
+  margin: 0 0 0 0;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-right: 0;
+  border-left: 0;
   border-top-width: 0;
-  background-color: white;
+  background-color:transparent;
 }
 
 .post:before {
@@ -1134,6 +938,7 @@ i[data-smiley="laugh"]:before {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+  display: none;
 }
 
 @media (max-width: 299px) {
@@ -1147,7 +952,7 @@ i[data-smiley="laugh"]:before {
 }
 
 .post.me {
-  background-color: #fafafa;
+  background-color: transparent;
 }
 
 .post strong {
@@ -1210,7 +1015,7 @@ i[data-smiley="laugh"]:before {
 .post-message {
   position: relative;
   margin: 0;
-  padding: 4px 10px;
+  padding: 4px 10px 4px 40px;
   text-rendering: optimizeLegibility;
   word-wrap: break-word;
   -webkit-hyphens: auto;
@@ -1299,12 +1104,13 @@ i[data-smiley="laugh"]:before {
 
 .post-meta {
   position: absolute;
-  top: 3px;
-  left: -40px;
+  top: 10px;
+  left: 0px;
   color: #999999;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  z-index: 9;
 }
 
 .post-reply:hover {
@@ -1410,8 +1216,8 @@ i[data-smiley="laugh"]:before {
 @media (max-width: 919px) {
   .post-name {
     top: 0px;
-    left: 14px;
-    padding: 7px 12px 7px 35px;
+    left: 0px;
+    padding: 7px 12px 7px 40px;
     visibility: hidden;
     opacity: 0;
     -webkit-transform: translate3d(-10px, 0, 0);
@@ -1446,11 +1252,13 @@ i[data-smiley="laugh"]:before {
     transition: opacity 0.1s ease-out,transform 0.2s cubic-bezier(0, 0.3, 0.16, 1);
   }
 
-  .chat .post:nth-last-of-type(-n+3) {
-    padding-top: 20px;
+  .chat .post,
+    .chat .post:nth-last-of-type(-n+3)  {
+    padding-top: 37px;
   }
 
-  .chat .post:nth-last-of-type(-n+3) .post-name {
+  .chat .post .post-name,
+    .chat .post:nth-last-of-type(-n+3) .post-name {
     opacity: 1;
     visibility: visible;
     -webkit-transform: none;
@@ -1460,6 +1268,7 @@ i[data-smiley="laugh"]:before {
     transform: none;
   }
 
+  .chat .post .post-message:first-of-type,
   .chat .post:nth-last-of-type(-n+3) .post-message:first-of-type {
     padding-top: 10px;
   }
@@ -2382,12 +2191,13 @@ i[data-smiley="laugh"]:before {
 }
 
 .theme--day .button:hover {
-  color: white;
-  background-color: #85b6ff;
+  color: #ccc;
+  background-color: #000;
 }
 
 .theme--day .button:active {
-  background-color: #428eff;
+  background-color: #000;
+  color: #ccc;
 }
 
 .theme--day .button--warning {
@@ -2438,7 +2248,7 @@ i[data-smiley="laugh"]:before {
 }
 
 .theme--day .header-bar {
-  background-color: #ccc;
+  background-color: #fff;
 }
 
 .theme--day .post-message.unread .post-time-dot {
