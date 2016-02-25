@@ -86,6 +86,14 @@ $(window).bind("resize", function() {
 }).trigger("resize");
 
 
+$('a.click_chat').click(function(){
+  console.log('click_chat');
+  $('.nav_chat').toggleClass('chat-active');
+  $('#single_wrap').toggleClass('chat-active');
+  $('.chat-room').toggleClass('chat-active');
+});
+
+
 
     }
   },

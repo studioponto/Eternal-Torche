@@ -1,4 +1,4 @@
-<div id="single_wrap">
+<div id="single_wrap" class="chat_move">
 <div class="image_wrap">
 <?php if (has_post_thumbnail()) {
 	the_post_thumbnail('full');
