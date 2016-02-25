@@ -30,7 +30,7 @@ var Roots = {
 function e() {
   window.location = linkLocation;
 }
-$("a").click(function (t) {
+$("a.thumb").click(function (t) {
     t.preventDefault();
     linkLocation = this.href;
     $("#spinner").fadeIn(500, e);
